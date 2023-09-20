@@ -1,0 +1,5 @@
+erDiagram
+    USER }|..|{ TASK-LIST : Manages
+    USER ||--o{ TASK : Creates
+    TASK ||--|{ COMPLETED-TASK : Marks as Completed
+    TASK ||--o{ NOTIFICATION : Receives
